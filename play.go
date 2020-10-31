@@ -85,6 +85,11 @@ func main() {
   end := false
   blacksTurn := true
   previousMovePassed := false
+  /*
+  TODO: Add rules to make game actually playable
+  Add in a scoring system
+  Add in territory calculator
+  */
   for !end {
     if blacksTurn {
       fmt.Println("Black, please pick a point to place your stone: ")
